@@ -10,8 +10,12 @@ updates:
     schedule:
       interval: "weekly"
     groups:
-      patch:
+      minor-patch:
+        applies-to: version-updates
         patterns:
+          - "*"
+        update-types:
+          - "minor"
           - "patch"
     cooldown:
       default-days: 3
