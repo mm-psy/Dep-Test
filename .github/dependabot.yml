@@ -11,10 +11,6 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 3
-    groups:
-      nuget-major:
-        update-types:
-          - "major"
 
   - package-ecosystem: "docker"
     directory: "/HelloWorldApi"
