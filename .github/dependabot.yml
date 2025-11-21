@@ -9,6 +9,10 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      patch:
+        patterns:
+          - "patch"
     cooldown:
       default-days: 3
 
