@@ -12,12 +12,9 @@ updates:
     cooldown:
       default-days: 3
     groups:
-      nuget-minor:
+      nuget-major:
         update-types:
-          - "minor"
-      nuget-patch:
-        update-types:
-          - "patch"
+          - "major"
 
   - package-ecosystem: "docker"
     directory: "/HelloWorldApi"
