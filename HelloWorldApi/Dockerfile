@@ -1,5 +1,5 @@
 # Use the official .NET 8 SDK image for build
-FROM mcr.microsoft.com/dotnet/sdk@sha256:20946c3da829b92ccfccfb9e07ee3490fb78cbf2fbc3d2472eb20651b57dd10c AS build
+FROM mcr.microsoft.com/dotnet/sdk@sha256:6ba533cc61a5d8c5e7d4b3a3e33e2ddc2efef200b112e4d658303516bfd24255 AS build
 WORKDIR /src
 COPY . .
 RUN dotnet restore --locked-mode
